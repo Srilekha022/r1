@@ -1,7 +1,7 @@
 header{
     background-color: lightblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
 }
@@ -37,9 +37,6 @@ ul a{
     display: flex;
     background-color: #987D9A;
     justify-content: space-around;
-    display: flex;
-    justify-content: center;
-    gap: 120px;
 }
 table,th,td{
     border: 1px solid black;
@@ -113,12 +110,3 @@ footer .social-Links,footer .up-links{
     display: flex;
     justify-content: space-around;
 }
-
-
-.frontend, .backend, .database{
-    transition: all ease-in 2s 2s;
-}
-.frontend:hover, .backend:hover, .database:hover{
-    transform: scale(1.2, 1.2);
-}
-    
